@@ -1,0 +1,84 @@
+#background_segundoBanner{
+    background-color: var(--amarelo-claro);
+    padding: 100px 100px 80px 300px;
+}
+.segundo_banner{
+    display: flex;
+}
+.lista_segundoBanner{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 80px;
+}
+.segundo_banner__titulo{
+    font-family: var(--font-cursiva);
+    color: var(--vermelho-escuro);
+    font-size: 50px;
+}
+.segundo_banner__sub_titulo{
+    font-family: var(--font-montserrat);
+    color: var(--vermelho-claro);
+    font-size: 20px;
+}
+.segundo_banner__descrição{
+    font-family: var(--font-inter);
+    font-size: 15px;
+    padding-top: 20px;
+}
+.segundo_banner__titulo_lista{
+    font-family: var(--font-inter);
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 38px;
+}
+.segundo_banner__lista{
+    text-decoration: none;
+    color: var(--vermelho-claro);
+}
+.Destaque_produto{
+    background-color: var(--amarelo-claro);
+    width: 500px;
+    height: 600px;
+    position: relative;
+}
+.Destaque_produto_background {
+    width: 400px;
+    height: 600px;
+    position: static;
+    background-color: var(--branco);
+    background-image: url(/img/b4b1331136e8a4310fa162fd41fedbd7.jpg); 
+    float: right;
+}
+/* #stilo para a segunda div */
+.Destaque_produto_arroz{
+    width: 200px;
+    height: 300px;
+    background-color:  var(--branco);
+    color: #fff;
+    position: absolute;
+    top: 150px; /* Ajuste a posição superior conforme necessário */
+    left: 10px; /* Ajuste a posição esquerda conforme necessário */
+}
+.imagem_arroz{
+    width: 70px;
+    height: 100px;
+    padding: 40px 65px 0px 65px;
+}
+.imagem_arroz__titulo{
+    font-family: var(--font-montserrat);
+    color: var(--preto);
+    font-size: 14px;
+    padding: 16px 50px 10px 50px;
+}
+.imagem_arroz__botão{
+    font-family: var(--font-inter);
+    font-size: 14px;
+    color: var(--vermelho-claro);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px 50px 0px 50px;
+    line-height: 2.5    ;
+}

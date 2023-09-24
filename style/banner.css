@@ -1,0 +1,29 @@
+.menu{
+    background-color: var(--branco);
+    display: flex;
+    gap: 110px;
+    align-items: center;
+    padding: 4% 25% 0.5% 25%;
+}
+.definir_tamanho_image_logo{
+  align-items: center;
+}
+.menu__image_logo{
+    height: 45PX;
+}
+.menu_opcao{
+    display: flex;
+    gap: 20px;
+}
+.menu_opcao_link{
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--vermelho-escuro);
+}
+
+.banner__imagem{
+    align-items: center;
+}
+.banner__imagem_principal{
+    height: 550px;
+}

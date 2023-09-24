@@ -1,0 +1,128 @@
+#background_receitas{
+    background-color: var(--amarelo-claro);
+    padding: 100px 100px 420px 300px;
+}
+#background_segunda_receitas{
+    background-color: var(--amarelo-claro);
+    padding: 100px 100px 0px 300px;
+}
+#background_terceira_receitas{
+    background-color: var(--amarelo-claro);
+    padding: 20px 100px 0px 300px;
+}
+.Primeira_receita{
+    background-color: var(--amarelo-claro);
+    display: inline-block;
+    position: relative;
+}
+.imagem_primeira_receita{
+    width: 900px;
+    height: 500px;
+    position: absolute;
+}
+.primeira_receita__texto{
+    position: absolute;
+    padding: 1px 20px 1px 20px;
+    margin-top: 450px;
+    margin-left: 12px;
+    color: var(--branco);
+    border: 1px solid var(--vermelho-escuro);
+    border-radius: 22px;
+    background-color: var(--vermelho-escuro);
+}
+.container_segunda_receita{
+    display: flex;
+    gap: 20px;
+}
+.receitas_especiais{
+    width: 435px;
+    height: 300px;
+    border: 1px solid var(--cinza);
+    background-color: var(--branco);
+    border-style: dashed;
+    border-width: 4px;
+    align-items: center;
+    text-align: center;
+}
+.receitas_especiais__subtitulo{
+    font-family: var(--font-montserrat);
+    color: var(--vermelho-escuro);
+    font-size: 20px;
+    padding-top: 48px;
+}
+.receitas_especiais__titulo{
+    font-family: var(--font-cursiva);
+    color: var(--vermelho-escuro);
+    font-size: 48px;    
+}
+.receitas_especiais__descricao{
+    font-family: var(--font-montserrat);
+    color: var(--preto);
+    font-size: 15px;
+    padding: 20px;
+}
+.receitas_especiais__botao{
+    color: var(--vermelho-escuro);
+    border: 1px solid var(--amarelo);
+    background-color: var(--amarelo);
+    padding: 10px 40px;
+}
+
+.segunda_receita{
+    background-color: var(--amarelo-claro);
+    display: inline-block;
+    position: relative;
+}
+.imagem_segunda_receita{
+    width: 435px;
+    height: 305px;
+    position: absolute;
+}
+.segunda_receita__texto{
+    position: absolute;
+    width: max-content;
+    padding: 1px 20px 1px 20px;
+    margin-top: 260px;
+    margin-left: 12px;
+    color: var(--branco);
+    border: 1px solid var(--vermelho-escuro);
+    border-radius: 22px;
+    background-color: var(--vermelho-escuro);
+}
+
+.container_terceira_receita{
+    display: flex;
+    gap: 20px;
+}
+.terceira_receita{
+    background-color: var(--amarelo-claro);
+    display: inline-block;
+    position: relative;
+}
+.imagem_terceira_receita{
+    width: 280px;
+    height: 350px;
+    position: absolute;
+}
+.receitas_exclusivas{
+    width: 590px;
+    height: 340px;
+    border: 1px solid var(--cinza);
+    background-color: var(--branco);
+    border-style: dashed;
+    border-width: 4px;
+    align-items: center;
+    text-align: center;
+    margin-left: 280px;
+}
+.receitas_exclusivas__subtitulo{
+    font-family: var(--font-montserrat);
+    color: var(--preto);
+    font-size: 20px;
+    padding-top: 10px;
+}
+.receitas_exclusivas__titulo{
+    font-family: var(--font-cursiva);
+    color: var(--vermelho-escuro);
+    font-size: 48px;    
+}

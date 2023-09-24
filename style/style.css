@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2? family= Allura & display=swap');
+
+:root{
+  --background-color: #f5f1e6;
+  --branco: #ffffff;
+  --vermelho-escuro: #931b10;
+  --vermelho-claro: #cb2e1f;
+  --amarelo: #ffac48;
+  --amarelo-claro: #f5f1e6;
+  --preto: #000000;
+  --cinza: #808080;
+
+
+  --font-inter: 'Inter', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-cursiva: 'Dancing Script', cursivo;
+}
+
+*{
+  margin: 0;
+  padding: 0; /
+}
+body{
+  font-family: var(--font-inter);
+  background-color: var(--branco);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
